@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
-    android:animation="@anim/list_slide_right"
-    android:animationOrder="reverse"
-    android:delay="30%" />
-<!-- From: file:/D:/Projects/trunk/app/src/main/res/anim/list_anim_layout.xml -->
