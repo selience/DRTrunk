@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_observer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启监听" />
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="应用下载" />
+
+    <Button
+        android:id="@+id/btn_install"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="应用安装" />
+
+    <Button
+        android:id="@+id/btn_uninstall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="应用卸载" />
+</LinearLayout><!-- From: file:/D:/Projects/trunk/app/src/main/res/layout/demo_fragment_install.xml -->

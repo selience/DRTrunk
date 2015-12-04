@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Flotr Chart</item>
+        <item>Swipe Tab</item>
+        <item>Video Crop</item>
+        <item>Communities</item>
+        <item>RecyclerView</item>
+        <item>What\'s Hot</item>
+    </string-array>
+
+    <string-array name="tab_titles">
+        <item>垂直List</item>
+        <item>水平List</item>
+        <item>垂直Grid</item>
+        <item>水平Grid</item>
+        <item>瀑布Staggered</item>
+    </string-array>
+
+    <string-array name="main_list_item">
+        <item>网络请求数据</item>
+        <item>本地方法调用</item>
+        <item>网络服务监听</item>
+        <item>启动谷歌地图</item>
+        <item>裁剪本地图片</item>
+        <item>本地通知监听</item>
+        <item>人脸面部检测</item>
+        <item>二维码图片扫描</item>
+        <item>横向滑动Tab栏</item>
+        <item>FlotrChart图表</item>
+        <item>6.0运行时权限</item>
+        <item>动态调整菜单栏</item>
+        <item>安装卸载监听</item>
+        <item>视频裁剪处理</item>
+        <item>Webp图片处理</item>
+    </string-array>
+
+    <string-array name="pick_image">
+        <item>使用相机拍照</item>
+        <item>从手机相册选择</item>
+    </string-array>
+</resources>

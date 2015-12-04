@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">移动互联</string>
+
+    <string name="activity_compat_sample">Support Libraries/ApiDemos</string>
+    <string name="activity_compat_recyclerview">Support Libraries/RecyclerView</string>
+
+    <string name="activity_compat_view">View</string>
+    <string name="activity_sample_homepage">Normal</string>
+
+
+    <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+
+
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+
+    <string name="menu_settings">Settings</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <string name="location_not_found">Unknown location</string>
+
+    <string name="main_menu_search">搜索</string>
+    <string name="main_menu_refresh">刷新</string>
+    <string name="main_menu_share">分享</string>
+    <string name="main_menu_setting">设置</string>
+    <string name="main_menu_about">关于</string>
+    <string name="main_menu_search_hint">搜索建议</string>
+
+    <string name="share_sina_weibo">新浪微博</string>
+    <string name="share_tencent_weibo">腾讯微博</string>
+
+    <string name="zing_scanbar">扫描二维码</string>
+
+    <string name="Play">Play</string>
+    <string name="Pause">Pause</string>
+    <string name="Resume">Resume</string>
+    <string name="Stop">Stop</string>
+
+    <!-- crop image -->
+    <string name="crop__saving">Saving picture…</string>
+    <string name="crop__wait">Please wait…</string>
+    <string name="crop__pick_error">No image sources available</string>
+    <string name="crop__done">DONE</string>
+    <string name="crop__cancel" tools:ignore="ButtonCase">CANCEL</string>
+
+    <string name="menu_crop_top">Crop Top</string>
+    <string name="menu_crop_center">Crop Center</string>
+    <string name="menu_crop_bottom">Crop Bottom</string>
+
+    <string name="empty_message">No items yet</string>
+    <string name="loading_message">Please wait</string>
+    <string name="error_message">Oops! Something wrong happened</string>
+
+    <string name="empty_button">Try again</string>
+    <string name="loading_button">Cancel</string>
+    <string name="error_button">Try again</string>
+</resources>

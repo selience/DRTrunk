@@ -1,0 +1,247 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:2:1-129:12
+	xmlns:android
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:5:5-32
+	android:versionCode
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [trunk:volley:unspecified] D:\Projects\trunk\app\build\intermediates\exploded-aar\trunk\volley\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [trunk:library:unspecified] D:\Projects\trunk\app\build\intermediates\exploded-aar\trunk\library\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [de.hdodenhof:circleimageview:1.3.0] D:\Projects\trunk\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.hotchemi:permissionsdispatcher:1.2.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.github.hotchemi\permissionsdispatcher\1.2.1\AndroidManifest.xml:6:5-43
+	android:targetSdkVersion
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\trunk\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:11:5-16:40
+	android:largeScreens
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:13:9-36
+	android:anyDensity
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:12:9-34
+	android:normalScreens
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:16:9-37
+	android:smallScreens
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:15:9-36
+uses-permission#android.permission.INTERNET
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.CAMERA
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:19:22-62
+uses-permission#android.permission.VIBRATE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:21:5-69
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:21:22-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:22:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:26:5-76
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:26:22-73
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:27:5-73
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:27:22-70
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:29:5-88
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:29:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:30:5-90
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:30:22-87
+uses-feature#android.hardware.camera
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:33:5-35:36
+	android:required
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:35:9-33
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:34:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:36:5-38:36
+	android:required
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:38:9-33
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:37:9-57
+application
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:40:5-127:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\design\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\palette-v7\23.0.1\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:support-v4:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.0.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:1.3.0] D:\Projects\trunk\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\1.3.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.hotchemi:permissionsdispatcher:1.2.1] D:\Projects\trunk\app\build\intermediates\exploded-aar\com.github.hotchemi\permissionsdispatcher\1.2.1\AndroidManifest.xml:8:5-20
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:45:9-41
+	android:allowBackup
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:42:9-36
+	android:icon
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:44:9-38
+	android:theme
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:46:9-45
+	android:hardwareAccelerated
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:43:9-43
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:41:9-39
+activity#me.darkeet.android.demo.activity.MainActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:48:9-55:20
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:48:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:49:13-54:29
+action#android.intent.action.MAIN
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:50:17-69
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:50:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:52:17-76
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:52:27-73
+category#android.intent.category.LAUNCHER
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:53:27-74
+activity#me.darkeet.android.demo.activity.CheeseActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:57:9-64:20
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:59:13-59
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:58:13-52
+intent-filter#android.intent.action.MAIN+android.intent.category.DARKEET_SAMPLE_CODE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:60:13-63:29
+category#android.intent.category.DARKEET_SAMPLE_CODE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:62:17-88
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:62:27-85
+activity#me.darkeet.android.demo.activity.CheeseDetailActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:65:9-67
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:65:19-64
+activity#me.darkeet.android.demo.activity.RecyclerViewActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:67:9-74:20
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:69:13-65
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:68:13-58
+activity#me.darkeet.android.demo.activity.HomeActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:75:9-82:20
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:77:13-61
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:76:13-50
+activity#me.darkeet.android.demo.activity.ViewActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:84:9-91:20
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:86:13-57
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:85:13-50
+activity#me.darkeet.android.demo.activity.ResultActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:93:9-61
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:93:19-58
+activity#me.darkeet.android.demo.activity.MapViewerActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:95:9-106:20
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:95:19-61
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:96:13-105:29
+action#android.intent.action.VIEW
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:97:17-69
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:97:25-66
+category#android.intent.category.BROWSABLE
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:100:17-78
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:100:27-75
+data
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:102:17-104:47
+	android:host
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:103:21-39
+	android:scheme
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:104:21-44
+activity#me.darkeet.android.demo.zing.view.CaptureActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:108:9-112:52
+	android:screenOrientation
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:112:13-49
+	android:label
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:111:13-49
+	android:configChanges
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:110:13-63
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:109:13-54
+activity#me.darkeet.android.demo.crop.CropImageActivity
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:114:9-60
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:114:19-57
+service#me.darkeet.android.demo.service.SocketService
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:116:9-118:41
+	android:process
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:118:13-38
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:117:13-50
+service#me.darkeet.android.demo.service.NotificationService
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:120:9-126:19
+	android:permission
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:122:13-87
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:121:13-56
+intent-filter#android.service.notification.NotificationListenerService
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:123:13-125:29
+action#android.service.notification.NotificationListenerService
+ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:124:17-99
+	android:name
+		ADDED from D:\Projects\trunk\app\src\main\AndroidManifest.xml:124:25-96
