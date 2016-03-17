@@ -17,10 +17,11 @@ import me.darkeet.android.base.DRBaseStackFragment;
 import me.darkeet.android.demo.R;
 import me.darkeet.android.log.DebugLog;
 import me.darkeet.android.utils.Toaster;
-import permissions.dispatcher.DeniedPermission;
 import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.OnPermissionDenied;
+import permissions.dispatcher.OnShowRationale;
+import permissions.dispatcher.PermissionRequest;
 import permissions.dispatcher.RuntimePermissions;
-import permissions.dispatcher.ShowsRationale;
 
 /**
  * Name: PermissionFragment
@@ -100,13 +101,13 @@ public class PermissionAnnotationFragment extends DRBaseStackFragment implements
 
 
     // Option
-    @ShowsRationale(Manifest.permission.WRITE_CONTACTS)
-    void showRationaleForWriteContacts() {
+    @OnShowRationale(Manifest.permission.WRITE_CONTACTS)
+    void showRationaleForWriteContacts(PermissionRequest request) {
         Toaster.show(mActivity, "You need to allow access to Contacts");
     }
 
     // Option
-    @DeniedPermission(Manifest.permission.WRITE_CONTACTS)
+    @OnPermissionDenied(Manifest.permission.WRITE_CONTACTS)
     void showDeniedForWriteContacts() {
         Toaster.show(mActivity, "WRITE_CONTACTS Denied");
     }

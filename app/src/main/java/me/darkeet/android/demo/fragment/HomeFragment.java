@@ -33,10 +33,11 @@ import me.darkeet.android.log.DebugLog;
 import me.darkeet.android.utils.NetworkUtils;
 import me.darkeet.android.utils.Toaster;
 import me.darkeet.android.utils.Utils;
-import permissions.dispatcher.DeniedPermissions;
-import permissions.dispatcher.NeedsPermissions;
+import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.OnPermissionDenied;
+import permissions.dispatcher.OnShowRationale;
+import permissions.dispatcher.PermissionRequest;
 import permissions.dispatcher.RuntimePermissions;
-import permissions.dispatcher.ShowsRationales;
 
 /**
  * Name: HomeFragment
@@ -74,7 +75,7 @@ public class HomeFragment extends DRBaseStackFragment implements OnItemClickList
         mDataList.addAll(Arrays.asList(mResources));
         // 设置列表适配器
         mListAdapter = new MenuListAdapter(mActivity);
-        mListAdapter.setItems(mDataList);
+        mListAdapter.setDataList(mDataList);
         mListView.setAdapter(mListAdapter);
         mListView.setOnItemClickListener(this);
         return convertView;
@@ -118,6 +119,8 @@ public class HomeFragment extends DRBaseStackFragment implements OnItemClickList
             replace(VideoCropFragment.class, "VideoCropFragment", bundle);
         } else if (position == 14) {
             replace(WebpFragment.class, "WebpFragment", bundle);
+        } else if (position == 15) {
+            replace(OkHttpFragment.class, "OkHttpFragment", bundle);
         }
     }
 
@@ -136,7 +139,7 @@ public class HomeFragment extends DRBaseStackFragment implements OnItemClickList
     }
 
     // 裁剪本地图片
-    @NeedsPermissions(value = {
+    @NeedsPermission(value = {
             Manifest.permission.CAMERA,
             Manifest.permission.WRITE_EXTERNAL_STORAGE
     })
@@ -164,15 +167,15 @@ public class HomeFragment extends DRBaseStackFragment implements OnItemClickList
     }
 
     // 授权提示
-    @ShowsRationales(value = {
+    @OnShowRationale(value = {
             Manifest.permission.CAMERA,
             Manifest.permission.WRITE_EXTERNAL_STORAGE
     })
-    void showRationaleForWriteContacts() {
+    void showRationaleForWriteContacts(PermissionRequest request) {
     }
 
     // 拒绝授权
-    @DeniedPermissions(value = {
+    @OnPermissionDenied(value = {
             Manifest.permission.CAMERA,
             Manifest.permission.WRITE_EXTERNAL_STORAGE
     })

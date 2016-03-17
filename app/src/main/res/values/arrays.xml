@@ -36,6 +36,7 @@
         <item>安装卸载监听</item>
         <item>视频裁剪处理</item>
         <item>Webp图片处理</item>
+        <item>OkHttp库使用</item>
     </string-array>
 
     <string-array name="pick_image">
