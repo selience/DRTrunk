@@ -16,7 +16,7 @@ import android.net.wifi.WifiManager;
 import android.os.IBinder;
 
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.NetworkUtils;
+import me.darkeet.android.util.NetworkUtils;
 
 /**
  * @file SocketService.java

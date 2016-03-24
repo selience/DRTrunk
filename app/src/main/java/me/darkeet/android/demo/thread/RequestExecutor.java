@@ -1,6 +1,6 @@
 package me.darkeet.android.demo.thread;
 
-import me.darkeet.android.utils.SystemUtils;
+import me.darkeet.android.util.SystemUtils;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;

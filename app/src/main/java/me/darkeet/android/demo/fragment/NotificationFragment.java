@@ -20,7 +20,7 @@ import me.darkeet.android.demo.R;
 import me.darkeet.android.demo.activity.HomeActivity;
 import me.darkeet.android.demo.constant.IntentConstants;
 import me.darkeet.android.demo.service.NotificationService;
-import me.darkeet.android.utils.DeviceUtils;
+import me.darkeet.android.util.DeviceUtils;
 
 /**
  * Name: NotificationFragment

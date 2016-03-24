@@ -4,7 +4,7 @@ import android.os.Build;
 import android.annotation.TargetApi;
 import android.service.notification.NotificationListenerService;
 import android.service.notification.StatusBarNotification;
-import me.darkeet.android.utils.Toaster;
+import me.darkeet.android.util.Toaster;
 
 /**
  * 确认开启通知监听服务才可以监听到通知内容

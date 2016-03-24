@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import me.darkeet.android.demo.R;
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.DeviceUtils;
+import me.darkeet.android.util.DeviceUtils;
 
 /**
  * Name: CustomTextView

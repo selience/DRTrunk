@@ -16,9 +16,9 @@ import me.darkeet.android.demo.R;
 import me.darkeet.android.demo.constant.IntentConstants;
 import me.darkeet.android.demo.request.UpdateRequest;
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.FileUtils;
-import me.darkeet.android.utils.Toaster;
-import me.darkeet.android.utils.Utils;
+import me.darkeet.android.util.FileUtils;
+import me.darkeet.android.util.Toaster;
+import me.darkeet.android.util.Utils;
 
 /**
  * Name: VolleyFragment

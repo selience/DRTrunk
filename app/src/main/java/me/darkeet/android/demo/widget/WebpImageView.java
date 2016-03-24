@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 import me.darkeet.android.demo.R;
 import me.darkeet.android.jni.WebpManager;
-import me.darkeet.android.utils.IoUtils;
+import me.darkeet.android.util.IoUtils;
 
 /**
  * Name: WebpImageView

@@ -12,7 +12,7 @@ import me.darkeet.android.demo.R;
 import me.darkeet.android.demo.constant.IntentConstants;
 import me.darkeet.android.log.DebugLog;
 import me.darkeet.android.retrofit.convert.JsonConverterFactory;
-import me.darkeet.android.utils.Toaster;
+import me.darkeet.android.util.Toaster;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

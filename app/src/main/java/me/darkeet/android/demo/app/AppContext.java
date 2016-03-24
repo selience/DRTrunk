@@ -10,10 +10,10 @@ import com.android.volley.core.RequestManager;
 import me.darkeet.android.app.AppException;
 import me.darkeet.android.demo.BuildConfig;
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.DebugModeUtils;
-import me.darkeet.android.utils.ManifestUtils;
-import me.darkeet.android.utils.StorageUtils;
-import me.darkeet.android.utils.Utils;
+import me.darkeet.android.util.DebugModeUtils;
+import me.darkeet.android.util.ManifestUtils;
+import me.darkeet.android.util.StorageUtils;
+import me.darkeet.android.util.Utils;
 
 /**
  * @author lilong

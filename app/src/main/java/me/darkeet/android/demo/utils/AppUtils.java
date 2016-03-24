@@ -6,7 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import me.darkeet.android.demo.R;
 
-import me.darkeet.android.utils.IntentUtils;
+import me.darkeet.android.util.IntentUtils;
 
 public class AppUtils {
     

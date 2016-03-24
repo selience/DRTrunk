@@ -16,8 +16,8 @@ import java.util.Random;
 import me.darkeet.android.base.DRBaseStackFragment;
 import me.darkeet.android.demo.R;
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.PermissionUtils;
-import me.darkeet.android.utils.Toaster;
+import me.darkeet.android.util.PermissionUtils;
+import me.darkeet.android.util.Toaster;
 
 /**
  * Name: PermissionFragment

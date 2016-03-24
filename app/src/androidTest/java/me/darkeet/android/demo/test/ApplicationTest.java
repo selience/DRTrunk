@@ -1,21 +1,14 @@
 package me.darkeet.android.demo.test;
 
 import android.app.Application;
-import android.os.Handler;
-import android.os.Looper;
 import android.test.ApplicationTestCase;
-import android.util.Log;
 
-import com.android.volley.ExecutorDelivery;
-import com.android.volley.Listener;
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.cache.NoCache;
-import com.android.volley.error.VolleyError;
-import com.android.volley.request.StringRequest;
-import com.android.volley.stack.HttpStack;
-import com.android.volley.stack.HurlStack;
-import com.android.volley.toolbox.BasicNetwork;
+import java.util.ArrayList;
+import java.util.List;
+
+import me.darkeet.android.cache.ModelCache;
+import me.darkeet.android.demo.model.News;
+import me.darkeet.android.demo.model.TestObject;
 
 /**
  * Name: ApplicationTest
@@ -25,8 +18,31 @@ import com.android.volley.toolbox.BasicNetwork;
  */
 public class ApplicationTest extends ApplicationTestCase<Application> {
 
-    public ApplicationTest(Class<Application> applicationClass) {
-        super(applicationClass);
+    public ApplicationTest() {
+        super(Application.class);
     }
 
+    /**
+     * CacheModel
+     */
+    public void testSaveStoresInCache() {
+        ModelCache modelCache = new ModelCache(1, 1, 1);
+        String id = "123";
+
+        List<News> dataList = new ArrayList<>();
+        dataList.add(new News(1, "abc"));
+        dataList.add(new News(2, "edf"));
+        dataList.add(new News(2, "aaa"));
+        dataList.add(new News(2, "bbb"));
+        dataList.add(new News(2, "ccc"));
+
+        TestObject preObject = new TestObject();
+        preObject.setTestString("this is a test");
+        preObject.setDataList(dataList);
+
+        modelCache.put(id, preObject);
+
+        TestObject postObject = (TestObject) modelCache.get(id);
+        assertEquals("this is a test", postObject.getTestString());
+    }
 }

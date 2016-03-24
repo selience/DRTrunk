@@ -15,9 +15,9 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AlertDialog;
 import me.darkeet.android.common.Crop;
 import me.darkeet.android.log.DebugLog;
-import me.darkeet.android.utils.IntentUtils;
-import me.darkeet.android.utils.MediaUtils;
-import me.darkeet.android.utils.Utils;
+import me.darkeet.android.util.IntentUtils;
+import me.darkeet.android.util.MediaUtils;
+import me.darkeet.android.util.Utils;
 
 /**
  * Name: ImagePickerFragment

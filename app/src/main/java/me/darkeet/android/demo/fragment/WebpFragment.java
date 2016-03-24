@@ -18,9 +18,9 @@ import me.darkeet.android.demo.R;
 import me.darkeet.android.demo.constant.IntentConstants;
 import me.darkeet.android.demo.widget.WebpImageView;
 import me.darkeet.android.jni.WebpManager;
-import me.darkeet.android.utils.FileUtils;
-import me.darkeet.android.utils.IoUtils;
-import me.darkeet.android.utils.Utils;
+import me.darkeet.android.util.FileUtils;
+import me.darkeet.android.util.IoUtils;
+import me.darkeet.android.util.Utils;
 
 /**
  * Name: WebpFragment

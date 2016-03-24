@@ -19,8 +19,6 @@ import android.widget.ImageView;
 import com.android.volley.RequestQueue;
 import com.android.volley.error.VolleyError;
 
-import me.darkeet.android.utils.DeviceUtils;
-
 /**
  * A class that wraps up remote image loading requests using the Volley library combined with a
  * memory cache. An single instance of this class should be created once when your Activity or
